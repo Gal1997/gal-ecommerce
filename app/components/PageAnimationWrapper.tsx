@@ -9,7 +9,7 @@ const PageAnimationWrapper = ({ children }: { children: ReactNode }) => {
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 15 }}
-        transition={{ delay: 0.3, duration: 0.75 }}
+        transition={{ delay: 0.3, duration: 1 }}
       >
         {children}
       </motion.div>
